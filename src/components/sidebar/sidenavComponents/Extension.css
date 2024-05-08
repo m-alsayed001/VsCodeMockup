@@ -1,0 +1,16 @@
+.search-box{
+  width: 90%;
+  height: 28px;
+  background-color: #313131;
+  margin-top: 20px;
+  margin-left: 14px;
+}
+
+.search-box::placeholder{
+  font-size: 12px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}

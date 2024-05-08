@@ -1,0 +1,53 @@
+.Search-Container{
+  display: flex;
+  margin-bottom: 10px;
+  margin-top:20px;
+}
+
+.search2-icon{
+  background-color: transparent;
+  border: none;
+  color: antiquewhite;
+  font-size: 12px;
+}
+
+.search-box1{
+  width: 100%;
+  height: 28px;
+  background-color: #313131;
+}
+
+.search-box2{
+  width: calc(100% - 8px);
+  height: 28px;
+  background-color: #313131;
+  margin-bottom: -5px;
+}
+
+.three-dots{
+  background-color: transparent;
+  font-size: 16px;
+  border: none;
+  color: antiquewhite;
+  margin-left: 250px;
+  margin-top:3px;
+}
+
+.search-box1::placeholder{
+  font-size: 12px;
+
+}
+
+.search-box2::placeholder{
+  font-size: 12px;
+
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button{
+  font-size: 16px;
+}
