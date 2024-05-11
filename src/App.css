@@ -97,3 +97,30 @@
 .menu-item:hover{
   background-color: #0078D4;
   }
+
+
+  .responsive-layout {
+    display: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background-color: #181818;
+  }
+
+.responsive-layout p{
+  font-size: 45px;
+  color: #0078D4;
+}
+
+@media (max-width: 1000px) {
+  .responsive-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+  }
+}

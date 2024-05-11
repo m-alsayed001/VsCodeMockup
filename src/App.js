@@ -10,6 +10,15 @@ function App() {
       <StickyHeader />
       <SideNavbar />
       <StickyFooter />
+      <div className='responsive-layout'>
+        <p>
+          Sorry!
+        </p>
+        <br/>
+        <p>
+          This app is only for Desktop.
+        </p>
+      </div>
     </div>
   );
 }
